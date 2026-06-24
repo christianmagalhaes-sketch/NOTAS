@@ -1,6 +1,6 @@
 // Sempre que alterares ficheiros, sobe o número da versão (v1 -> v2 ...).
 // Sem isto, os aparelhos continuam a mostrar a versão antiga guardada em cache.
-const CACHE = "minhas-notas-v1";
+const CACHE = "ponto-presenca-v1";
 
 // Lista de ficheiros que ficam disponíveis offline.
 // Se acrescentares ficheiros (outro .js, um .css, imagens), adiciona-os aqui.
@@ -20,7 +20,7 @@ self.addEventListener("install", event => {
   self.skipWaiting();
 });
 
-// Activar: apagar caches de versões antigas.
+// Activar: apagar caches de versões antigas (inclui a cache da app anterior).
 self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys().then(keys =>

@@ -1,13 +1,14 @@
 {
-  "name": "Notas",
-  "short_name": "Notas",
-  "description": "As minhas notas, offline.",
+  "name": "Ponto de Presença",
+  "short_name": "Presença",
+  "description": "Check-in pessoal diário, offline, sem avaliações nem pontuações.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#faf9f6",
-  "theme_color": "#23232a",
+  "background_color": "#EFEBE1",
+  "theme_color": "#566F69",
+  "lang": "pt-PT",
   "icons": [
     {
       "src": "./icon-192.png",
